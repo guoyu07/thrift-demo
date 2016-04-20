@@ -1,0 +1,16 @@
+{
+    "name": "potterhe/thrift-demo",
+    "description": "thrift php demo",
+    "keywords": ["thrift","php"],
+    "homepage": "http://github.com/potterhe/thrift-demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Potter He",
+            "email": "potter.he@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
