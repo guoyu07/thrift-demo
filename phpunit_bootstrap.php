@@ -10,7 +10,7 @@ $loader->registerDefinition('tutorial', $GEN_DIR);
 $loader->register();
 
 $loader = require APP_ROOT . 'vendor/autoload.php';
-$loader->set('tutorial\\php\\', APP_ROOT);
+$loader->set('handler\\tutorial\\', APP_ROOT);
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one

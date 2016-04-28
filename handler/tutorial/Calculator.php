@@ -1,8 +1,8 @@
 <?php
 
-namespace tutorial\php;
+namespace handler\tutorial;
 
-class CalculatorHandler implements \tutorial\CalculatorIf{
+class Calculator implements \tutorial\CalculatorIf{
     protected $log = array();
 
     public function ping() {
