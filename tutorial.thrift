@@ -150,3 +150,8 @@ service Calculator extends shared.SharedService {
  * in folders with names gen-<language>. The generated code isn't too scary
  * to look at. It even has pretty indentation.
  */
+
+service Duck {
+    void sleep(1:i32 sec),
+    string say(1:string str)
+}
